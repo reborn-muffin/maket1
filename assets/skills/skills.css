@@ -1,0 +1,75 @@
+.skills{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    background-color: #FFFAF2;
+}
+
+.skills__title{
+    padding-bottom: 26px;
+}
+
+.skills__profile-title{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.skills__profile-photo img{
+    width: 218px;
+    height: 224px;
+    display: block;
+    margin:  0 auto;
+}
+
+/* DESCRIPTION ELEMENT */
+.descript{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.descript-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.descript-block:first-child{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.descript__left-side{
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+}
+
+.descript__left-side h4{
+    font-weight: 600;
+    text-align: left;
+}
+
+.descript__left-side h4:last-child, .descript__right-side p{
+    padding-top: 10px;
+}
+
+.descript__right-side{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.progress-bar{
+    width: 100%;
+    background-color: #F5D6AB;
+    height: 18px;
+}
+
+.progress-value{
+    background-color: #C66C49;
+    width: 75%;
+    height: 100%;
+}

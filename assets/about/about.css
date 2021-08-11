@@ -1,0 +1,12 @@
+.about{
+    padding-top: 37px;
+    padding-bottom: 20px;
+}
+
+.about__title{
+    margin-bottom: 20px;
+}
+
+.about__text{
+    text-align: justify;
+}
