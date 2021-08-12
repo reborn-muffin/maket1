@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="assets/about/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="assets/skills/skills.css">
+    <link rel="stylesheet" href="assets/portfolio/portfolio.css">
+    <link rel="stylesheet" href="assets/footer/footer.css">
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -23,19 +23,27 @@
             <div class="container">
                 <header>
                     <nav>
-                        <div class="header__menu">
+                        <div class="header__mobile-menu">
                             <div class="stick"></div>
                             <div class="stick"></div>
                             <div class="stick"></div>
                         </div> 
+
+                        <div class="header__menu">
+                            <a href="#">Home</a>
+                            <a href="#">About</a>
+                            <a href="#">Skills</a>
+                            <a href="#">Portfolio</a>
+                            <a href="#">Contact</a>
+                        </div>
                     </nav>
     
                     <h1 class="header__title">Portfolio</h1>
                 </header>
     
                 <div class="intro__content">
-                    <p class="intro__text intro__text_big">Hi, It’s Théophile Seyrig</p>
-                    <p class="intro__text intro__text_small">Designer from Porto, Portugal</p>
+                    <h1 class="intro__text intro__text_big">Hi, It’s Théophile Seyrig</h1>
+                    <h2 class="intro__text intro__text_small">Designer from Porto, Portugal</h2>
                     <a href="#" class="intro__link">Latest work</a>
                 </div>
             </div>
@@ -78,7 +86,7 @@
                         </div>
     
                         <div class="descript__right-side">
-                            <div class="progress-bar">
+                            <div class="progress-bar" id="progressBar1">
                                 <div class="progress-value"></div>
                             </div>
     
@@ -93,7 +101,7 @@
                         </div>
     
                         <div class="descript__right-side">
-                            <div class="progress-bar">
+                            <div class="progress-bar" id="progressBar1">
                                 <div class="progress-value"></div>
                             </div>
     
@@ -108,7 +116,7 @@
                         </div>
     
                         <div class="descript__right-side">
-                            <div class="progress-bar">
+                            <div class="progress-bar" id="progressBar1">
                                 <div class="progress-value"></div>
                             </div>
     
@@ -119,7 +127,67 @@
             </div>
         </section>
 
-        <section></section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">Portfolio</h2>
+                <h3 class="portfolio__subtitle">UX Research</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                </p>
+
+                <div class="gallery">
+                    <div class="gallery__left">
+                        <img src="assets/images/gallery_2.png" alt="" height="70px" width="170px">
+                        <img src="assets/images/gallery_4.png" alt="" height="112px" width="170px">
+                    </div>
+
+                    <div class="gallery__right">
+                        <img src="assets/images/gallery_1.png" alt="" height="112px" width="124px">
+                        <img src="assets/images/gallery_3.png" alt="" height="70px" width="124px">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <h2>Get in Touch</h2>
+
+            <div class="contact">
+                <div class="contact__links">
+                    <div class="contact__portfolio-link">
+                        <ul>
+                            <li> <a href="#">Dribbble</a> </li>
+                            <li> <a href="#">Behance</a> </li>
+                            <li> <a href="#">CodePen</a> </li>
+                            <li> <a href="#">GitHub</a> </li>
+                            <li> <a href="#">Medium</a> </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact__email-phone">
+                        <ul>
+                            <li> <a href="#">LinkedIn</a> </li>
+                            <li> <a href="#">Facebook</a> </li>
+                            <li> <a href="#">Instagram</a> </li>
+                            <li> <a href="#">Twitter</a> </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sss">
+                    <div class="contact__phone-email">
+                        <p>seyrig@mailme.com</p>
+                        <p>+ 55 6645 665544</p>
+                    </div>
+                    
+                    <button class="btn-up">
+                        <img src="assets/images/icons/up-chevron.png" alt="" width="24px" height="24px">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

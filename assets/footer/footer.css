@@ -1,0 +1,48 @@
+footer{
+    padding-top: 26px;
+    background: #FFFAF2;
+}
+
+.btn-up{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.contact{
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.contact__links{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+}
+
+.contact ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: left;
+}
+
+.contact li{
+    margin-top: 18px;
+    text-align: left;
+}
+
+.contact li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+    padding-bottom: 30px;
+}

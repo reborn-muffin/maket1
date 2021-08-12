@@ -1,0 +1,39 @@
+.portfolio{
+    padding-top: 24px;
+}
+
+.portfolio__subtitle{
+    font-size: 14;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.portfolio p{
+    margin-bottom: 20px;
+}
+
+.gallery__left, .gallery__right{
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery img{
+    display: block;
+}
+
+.gallery__left img:first-child, .gallery__right img:first-child{
+    margin-bottom: 14px;
+}
+
+.gallery__left{
+    margin-right: 14px;
+}
+
+.gallery{
+    width: 308px;
+    height: 195px;
+
+    display: flex;
+
+    margin-bottom: 24px;
+}

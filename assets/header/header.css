@@ -1,4 +1,4 @@
-.header__menu{
+.header__mobile-menu{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -7,7 +7,7 @@
     cursor: pointer;
 }
 
-.header__menu .stick{
+.header__mobile-menu .stick{
     width: 100%;
     height: 2px;
     background-color: white;
@@ -22,4 +22,38 @@ header{
 
 .header__title{
     font-size: 24px;
+}
+
+.header__menu{
+    display: none;
+}
+
+.header__menu a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+@media screen and (min-width: 1400px){
+    header{
+        margin-top: 56px;
+    }
+
+    .header__mobile-menu{
+        display: none;
+    }
+
+    .header__title{
+        margin-right: auto;
+    }
+
+    .header__menu{
+        display: block;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row-reverse;
+    }
 }

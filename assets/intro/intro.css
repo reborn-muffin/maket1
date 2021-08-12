@@ -10,6 +10,7 @@
 .intro::after{
     content: "";
     background-image: url("/assets/images/bg.png");
+    background-repeat: no-repeat;
     position: absolute;
     left: 0;
     top: 0;
@@ -28,12 +29,42 @@
 }
 
 .intro__link{
-   margin-top: 40px;
+   margin-top: 88px;
    font-size: 13px;
    color: white;
    display: block;
 }
 
 .intro__content{
-    margin-top: 50px;
+    margin-top: 50px !important;
+}
+
+@media screen and (min-width: 1000px){
+    .intro{
+        height: 768px;
+    }
+
+    .intro::after{
+        background-image: url("/assets/images/bg-big.png");
+        background-size: cover;
+    }
+
+    .intro__text_big{
+        font-size: 64px;
+        margin-top: 146px;
+    }
+
+    .intro__text_small{
+        font-size: 24px;
+        margin-top: 26px;
+    }
+
+    .intro__link{
+        margin-top: 106px;
+        font-size: 18px;
+    }
+
+    .intro__content h1, h2, a{
+        text-align: left;
+    }
 }
