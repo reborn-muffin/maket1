@@ -16,12 +16,13 @@
 header{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    position: relative;
     align-items: center;
 }
 
 .header__title{
     font-size: 24px;
+    margin: 0 auto;
 }
 
 .header__menu{
@@ -35,7 +36,7 @@ header{
     margin-right: 60px;
 }
 
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1000px){
     header{
         margin-top: 56px;
     }
@@ -45,7 +46,7 @@ header{
     }
 
     .header__title{
-        margin-right: auto;
+        margin-left: 0;
     }
 
     .header__menu{

@@ -1,5 +1,5 @@
 .intro{
-    padding-top: 36px;
+    padding-top: 36px !important;
     padding-bottom: 37px;
     color: white;
     text-align: center;
@@ -11,6 +11,7 @@
     content: "";
     background-image: url("/assets/images/bg.png");
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     left: 0;
     top: 0;
@@ -21,27 +22,30 @@
 
 .intro__text_big{
     font-size: 20px;
+    text-align: center;
 }
 
 .intro__text_small{
     margin-top: 12px;
     font-size: 13px;
+    text-align: center;
 }
 
 .intro__link{
-   margin-top: 88px;
+   margin-top: 40px;
    font-size: 13px;
    color: white;
    display: block;
 }
 
 .intro__content{
-    margin-top: 50px !important;
+    margin-top: 50px;
 }
 
 @media screen and (min-width: 1000px){
     .intro{
-        height: 768px;
+        height: calc(768px - 36px);
+        background: rgba(198, 108, 73, 0.3);
     }
 
     .intro::after{
@@ -51,12 +55,15 @@
 
     .intro__text_big{
         font-size: 64px;
-        margin-top: 146px;
+        margin-top: 184px;
+        text-align: left;
+        height: 1em;
     }
 
     .intro__text_small{
         font-size: 24px;
         margin-top: 26px;
+        text-align: left;
     }
 
     .intro__link{

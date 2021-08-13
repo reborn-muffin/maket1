@@ -47,6 +47,11 @@
     width: 30%;
 }
 
+.descript-block h4, p{
+    margin: 0;
+    text-align: left;
+}
+
 .descript__left-side h4{
     font-weight: 600;
     text-align: left;
@@ -72,4 +77,51 @@
     background-color: #C66C49;
     width: 75%;
     height: 100%;
+}
+
+@media screen and (min-width: 1000px){
+    .skills{
+        padding-top: 94px;
+        padding-bottom: 146px;
+    }
+
+    .descript{
+        max-width: 50%;
+        flex-grow: 1;
+    }
+
+    .skills__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .skills__profile-photo img{
+        width: 350px;
+        height: 340px;
+    }
+
+    .descript__left-side h4, p{
+        font-size: 18px;
+    }
+
+    .skills__title{
+        margin-bottom: 86px;
+    }
+
+    .descript__left-side h4:last-child, .descript__right-side p{
+        padding-top: 20px;
+    }
+
+    .descript-block:first-child h4, .descript-block:first-child p{
+        padding-top: 0;
+    }
+
+    .progress-bar{
+        height: 24px;
+    }
+
+    .progress-value{
+        height: 24px;
+    }
 }

@@ -3,7 +3,7 @@ footer{
     background: #FFFAF2;
 }
 
-.btn-up{
+.btn{
     border: none;
     background: none;
     cursor: pointer;
@@ -26,6 +26,7 @@ footer{
     display: flex;
     flex-flow: wrap column;
     justify-content: left;
+    padding-left: 0;
 }
 
 .contact li{
@@ -38,7 +39,7 @@ footer{
     color: black;
 }
 
-.sss{
+.footer__author{
     display: flex;
     justify-content: space-between;
     align-items: center;

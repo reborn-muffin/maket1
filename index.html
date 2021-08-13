@@ -42,8 +42,8 @@
                 </header>
     
                 <div class="intro__content">
-                    <h1 class="intro__text intro__text_big">Hi, It’s Théophile Seyrig</h1>
-                    <h2 class="intro__text intro__text_small">Designer from Porto, Portugal</h2>
+                    <p class="intro__text intro__text_big">Hi, It’s Théophile Seyrig</p>
+                    <p class="intro__text intro__text_small">Designer from Porto, Portugal</p>
                     <a href="#" class="intro__link">Latest work</a>
                 </div>
             </div>
@@ -61,66 +61,69 @@
         </section>
 
         <section class="skills">
-            <h2 class="skills__title">Skills</h2>
-
-            <picture class="skills__profile-photo">
-                <img src="assets/images/profile_img.png" alt="profile image">
-            </picture>
-
             <div class="container">
-                <div class="descript">
-                    <div class="descript-block">
-                        <div class="descript__left-side">
-                            <h4>Profile</h4>
-                        </div>
-    
-                        <div class="descript__right-side">
-                            <p>UI / UX Engineer, Front-end Developer</p>
-                        </div>
-                    </div>
-    
-                    <div class="descript-block">
-                        <div class="descript__left-side">
-                            <h4>Front-end Dev</h4>
-                            <h4>Tools</h4>
-                        </div>
-    
-                        <div class="descript__right-side">
-                            <div class="progress-bar" id="progressBar1">
-                                <div class="progress-value"></div>
+                <h2 class="skills__title">Skills</h2>
+
+                <div class="skills__content">
+                    <picture class="skills__profile-photo">
+                        <source srcset="assets/images/profile_img-big.png" media="(min-width: 1000px)"/>
+                        <img src="assets/images/profile_img.png" alt="profile image">
+                    </picture>
+                    
+                    <div class="descript">
+                        <div class="descript-block">
+                            <div class="descript__left-side">
+                                <h4>Profile</h4>
                             </div>
-    
-                            <p>HTML, CSS, JS, Bootstrap, React</p>
-                        </div>
-                    </div>
-    
-                    <div class="descript-block">
-                        <div class="descript__left-side">
-                            <h4>UI Design</h4>
-                            <h4>Tools</h4>
-                        </div>
-    
-                        <div class="descript__right-side">
-                            <div class="progress-bar" id="progressBar1">
-                                <div class="progress-value"></div>
+        
+                            <div class="descript__right-side">
+                                <p>UI / UX Engineer, Front-end Developer</p>
                             </div>
-    
-                            <p>Adobe PS, AI, XD, Figma, InVision</p>
                         </div>
-                    </div>
-    
-                    <div class="descript-block">
-                        <div class="descript__left-side">
-                            <h4>UX Research</h4>
-                            <h4>Tools</h4>
-                        </div>
-    
-                        <div class="descript__right-side">
-                            <div class="progress-bar" id="progressBar1">
-                                <div class="progress-value"></div>
+        
+                        <div class="descript-block">
+                            <div class="descript__left-side">
+                                <h4>Front-end Dev</h4>
+                                <h4>Tools</h4>
                             </div>
-    
-                            <p>Paper, Pen, Balsamiq</p>
+        
+                            <div class="descript__right-side">
+                                <div class="progress-bar" id="progressBar1">
+                                    <div class="progress-value"></div>
+                                </div>
+        
+                                <p>HTML, CSS, JS, Bootstrap, React</p>
+                            </div>
+                        </div>
+        
+                        <div class="descript-block">
+                            <div class="descript__left-side">
+                                <h4>UI Design</h4>
+                                <h4>Tools</h4>
+                            </div>
+        
+                            <div class="descript__right-side">
+                                <div class="progress-bar" id="progressBar1">
+                                    <div class="progress-value"></div>
+                                </div>
+        
+                                <p>Adobe PS, AI, XD, Figma, InVision</p>
+                            </div>
+                        </div>
+        
+                        <div class="descript-block">
+                            <div class="descript__left-side">
+                                <h4>UX Research</h4>
+                                <h4>Tools</h4>
+                            </div>
+        
+                            <div class="descript__right-side">
+                                <div class="progress-bar" id="progressBar1">
+                                    <div class="progress-value"></div>
+                                </div>
+        
+                                <p>Paper, Pen, Balsamiq</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -131,19 +134,47 @@
             <div class="container">
                 <h2 class="portfolio__title">Portfolio</h2>
                 <h3 class="portfolio__subtitle">UX Research</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.
-                </p>
 
                 <div class="gallery">
-                    <div class="gallery__left">
-                        <img src="assets/images/gallery_2.png" alt="" height="70px" width="170px">
-                        <img src="assets/images/gallery_4.png" alt="" height="112px" width="170px">
+                    <div class="gallery__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.
+                        </p>
+    
+                        <div class="gallery__controll">
+                            <button class="btn">
+                                <img src="assets/images/icons/up-chevron.png" alt="" width="24px" height="24px" class="rotate90l">
+                            </button>
+                            <button class="btn">
+                                <img src="assets/images/icons/up-chevron.png" alt="" width="24px" height="24px" class="rotate90r">
+                            </button>
+                        </div>
                     </div>
+    
+                    <div class="gallery__imgs">
+                        <div class="gallery__left">
+                            <picture>
+                                <source srcset="assets/images/gallery_2-big.png" media="(min-width: 1000px)">
+                                <img src="assets/images/gallery_2.png" class="img1" alt="" height="70px" width="170px">
+                            </picture>
 
-                    <div class="gallery__right">
-                        <img src="assets/images/gallery_1.png" alt="" height="112px" width="124px">
-                        <img src="assets/images/gallery_3.png" alt="" height="70px" width="124px">
+                            <picture>
+                                <source srcset="assets/images/gallery_4.png" media="min-width: 1000px">
+                                <img src="assets/images/gallery_4-big.png" class="img2" alt="" height="112px" width="170px">
+                            </picture>
+                        </div>
+    
+                        <div class="gallery__right">
+                            <picture>
+                                <source src="assets/images/gallery_1.png" media="min-width: 1000px">
+                                <img src="assets/images/gallery_1-big.png" class="img3" alt="" height="112px" width="124px">
+                            </picture>
+                            
+                            <picture>
+                                <source src="assets/images/gallery_3.png" media="min-width: 1000px">
+                                <img src="assets/images/gallery_3-big.png" class="img4" alt="" height="70px" width="124px">
+                            </picture>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,13 +207,13 @@
                     </div>
                 </div>
 
-                <div class="sss">
+                <div class="footer__author">
                     <div class="contact__phone-email">
                         <p>seyrig@mailme.com</p>
                         <p>+ 55 6645 665544</p>
                     </div>
                     
-                    <button class="btn-up">
+                    <button class="btn">
                         <img src="assets/images/icons/up-chevron.png" alt="" width="24px" height="24px">
                     </button>
                 </div>

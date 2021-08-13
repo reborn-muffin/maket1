@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+section, footer{
+    padding-top: 25px !important;
+}
+
 body{
     margin: 0; 
     padding: 0; 
@@ -20,6 +24,7 @@ body{
 h1, h2, h3, h4, h5, h6{
     font-family: 'Libre Franklin', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 h1{
@@ -33,4 +38,18 @@ h2{
 
 h3{
     font-weight: 500;
+}
+
+@media screen and (min-width: 1000px){
+    section, footer{
+        padding-top: 94px !important;
+    }
+
+    h2{
+        font-weight: 700;
+    }
+
+    *{
+        font-size: 18px;
+    }
 }

@@ -1,5 +1,6 @@
 .portfolio{
     padding-top: 24px;
+    padding-bottom: 28px;
 }
 
 .portfolio__subtitle{
@@ -21,19 +22,88 @@
     display: block;
 }
 
-.gallery__left img:first-child, .gallery__right img:first-child{
+.gallery__left picture:first-child, .gallery__right picture:first-child{
     margin-bottom: 14px;
 }
 
 .gallery__left{
+    height: fit-content;
     margin-right: 14px;
 }
 
-.gallery{
+.gallery__imgs{
     width: 308px;
     height: 195px;
+    margin-bottom: 24px;
 
     display: flex;
+}
 
-    margin-bottom: 24px;
+.rotate90l{
+    transform: rotate(-90deg);
+}
+
+.rotate90r{
+    transform: rotate(90deg);
+}
+
+.gallery__controll{
+    display: none;
+}
+
+@media screen and (min-width: 1000px){
+    .portfolio__subtitle{
+        font-size: 18px;
+        text-align: left;
+        margin-top: 86px;
+        margin-bottom: 48px;
+    }
+
+    .gallery__controll{
+        display: block;
+    }
+
+    .gallery__text p{
+        display: flex;
+        flex-direction: column;
+        line-height: 30px;
+        width: 350px;
+    }
+
+    .gallery__imgs{
+        width: 636px;
+        height: 404px;
+    }
+
+    .gallery__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 9px;
+    }
+
+    .gallery{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img1{
+        width: 350px;
+        height: 144px;
+    }
+
+    .img2{
+        width: 350px;
+        height: 234px;
+    }
+
+    .img3{
+        width: 256px;
+        height: 234px;
+    }
+
+    .img4{
+        width: 256px;
+        height: 144px;
+    }
 }
