@@ -59,6 +59,14 @@
         margin-bottom: 48px;
     }
 
+    .gallery__imgs{
+        margin-bottom: 0;
+    }
+
+    .portfolio{
+        padding-bottom: 146px;
+    }
+
     .gallery__controll{
         display: block;
     }

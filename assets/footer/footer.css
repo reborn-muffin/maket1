@@ -53,7 +53,7 @@ ul{
 }
 
 .footer__btn{
-    margin-bottom: 5%;
+
     margin-left: 90%;
 }
 
@@ -75,11 +75,11 @@ ul{
     }
 
     .footer__btn{
-        margin-bottom: 5%;
+        margin-top: 10%;
         margin-left: 100%;
     }
 
-    .footer{
-        padding-bottom: 190px;
+    footer{
+        padding-bottom: 130px;
     }
 }
